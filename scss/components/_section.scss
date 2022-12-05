@@ -1,0 +1,34 @@
+.section {
+	padding: 6% 0 2% 0;
+	text-align: center;
+
+
+	&__title {
+		color: #080808;
+		font-weight: 800;
+		font-size: rem(34px);
+		margin-bottom: rem(10px);
+		font-family: Raleway;
+	}
+
+	&__desc {
+		margin-bottom: rem(30px);
+		padding: 0 25%;
+		line-height: 171%;
+		@include tablets{
+			padding: 0 19%;
+		}
+		@include phones{
+			padding:0 8%;
+		}
+	}
+}
+.container {
+}
+
+.section--black{
+	background:#080808;
+	&__title{
+		color: #fff;
+	}
+}

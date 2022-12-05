@@ -1,0 +1,26 @@
+.worked {
+	&__text {
+		color: #fff;
+		margin-bottom: rem(20px);
+	}
+
+	&__list {
+		display: flex;
+	}
+
+	&__btn {
+		color: inherit;
+		border-radius: rem(4px);
+		width: rem(160px);
+		height: rem(60px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: solid #1B1B1B rem(1px);
+		margin-right: rem(30px);
+		font-weight: 700;
+	}
+
+	&__item {
+	}
+}
